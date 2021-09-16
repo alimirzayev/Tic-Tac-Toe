@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    width: 650px;
+    height: auto;
+    flex-wrap: wrap;
+}
+ul li{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    margin: 5px;
+    font-size: 100px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
